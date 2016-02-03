@@ -7,8 +7,8 @@
   define('LOGO_DIR', dirname(__FILE__).'/');
   
   // Include
-  include(LOGO_DIR.'logo.php');
-  require_once(LOGO_DIR.'util.php');
+  include(LOGO_DIR.'class.logo.php');
+  require_once(LOGO_DIR.'utils.php');
   require_once(LOGO_DIR.'class.storage.php');
   
   // Constants
