@@ -36,7 +36,7 @@
       // Window
       var $_win;
       
-      function Logo(&$im, $r=255, $g=255, $b=255, $width=720, $height=600)
+      public function __construct(&$im, $r=255, $g=255, $b=255, $width=720, $height=600)
       {
           if (!$im)
           {
