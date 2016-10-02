@@ -127,7 +127,7 @@
       'DOT'
       );
       /* Constructor */
-      function LogoParser(&$lgo, $s='')
+      public function __construct(&$lgo, $s='')
       {
           $this->_logo=&$lgo;
           $this->_lineX=0;
